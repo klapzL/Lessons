@@ -1,31 +1,31 @@
-# # Функции / Functions
+# Функции / Functions
 
-# def my_func():
-# 	print('Hello, World!')
+def my_func():
+	print('Hello, World!')
 
-# # my_func()
+# my_func()
 
-# def name():
-# 	return 'lorem'# Подставляется значение
+def name():
+	return 'lorem'# Подставляется значение
 
-# a = name()
-# # print(a)
+a = name()
+# print(a)
 
-# # Параметры функии
+# Параметры функии
 
-# def even(number): # Переменная 'number' может использоваться только в функции
-# 	if number % 2 == 0:
-# 		return 'Even'
-# 	else:
-# 		return 'Odd'
+def even(number): # Переменная 'number' может использоваться только в функции
+	if number % 2 == 0:
+		return 'Even'
+	else:
+		return 'Odd'
 
-# print(even(4))
-# print(even(int(input())))
+print(even(4))
+print(even(int(input())))
 
-# def summa(a, b):
-# 	return a + b
+def summa(a, b):
+	return a + b
 
-# print(summa(4, 5))
+print(summa(4, 5))
 
 def longest_word(text):
 	my_list = []
