@@ -7,6 +7,8 @@ def cap_letter(name):
 
 print(cap_letter('the Kyrgyz Republic'))
 
+#######
+
 def abrev(text):
 	abrev = ''
 	for words in text.split():
@@ -15,6 +17,8 @@ def abrev(text):
 	return abrev
 
 print(abrev('the Russian Federation'))
+
+#######
 
 def abreviature(abrev):
 	abrev1 = ''
