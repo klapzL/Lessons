@@ -6,5 +6,15 @@ def average(a):
 	return summa / 5
 
 def rise_in_price(menu):
-	new_price = int(menu.values()) + 50
+	a = dict()
+	for key, value in menu.items():
+		a[key] = value+50
+	return a
+
+def creating_third(dict1, dict2):
+	
+	dict3 = dict()
+	for i, j in dict1.items():
+		
+	return dict3
 
