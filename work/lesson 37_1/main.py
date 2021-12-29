@@ -26,4 +26,3 @@ scores2 = {
 	'RU': 20
 }
 print(creating_third(scores1, scores2))
-

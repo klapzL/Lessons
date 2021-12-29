@@ -12,9 +12,7 @@ def rise_in_price(menu):
 	return a
 
 def creating_third(dict1, dict2):
-	
 	dict3 = dict()
-	for i, j in dict1.items():
-		
+	for keys, values in dict1.items():
+		dict3[keys] = values
 	return dict3
-
